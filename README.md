@@ -5,9 +5,14 @@ This method increases the performance of the model. More importantly it guarante
 ## To Run
 You need to install corti-dnlp and corti-data-manager in your virtual enviroment.
 ## Training
-`tf_adversarial_minibatching.py` is the main file to run, remember to specify parameters and directories.
-`generate_data.py` can generate data based on given distribution. This is for testing, and traing a normal model.
-`test_minibatching.py` test the performance of minibatch trained model on a test dataset.
-`view_pattern.py,test.py,test1.py` tests various properties of the model
-`plotting.py,plot_dist.py,plotting_scatter.py` plots loss distributions or just distributions
-`train_normal.py` trains a normal model for comparision
+* `tf_adversarial_minibatching.py` is the main file to run, remember to specify parameters and directories.
+
+* `generate_data.py` can generate data based on given distribution. This is for testing, and traing a normal model.
+
+* `test_minibatching.py` test the performance of minibatch trained model on a test dataset.
+
+* `view_pattern.py,test.py,test1.py` tests various properties of the model.
+
+* `plotting.py,plot_dist.py,plotting_scatter.py` plots loss distributions or just distributions.
+
+* `train_normal.py` trains a normal model for comparision.
